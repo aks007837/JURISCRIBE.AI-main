@@ -55,7 +55,7 @@ const pqr = () => {
       <div className="sticky top-0 mb-3 bg-slate-800 py-4 text-center text-2xl font-bold uppercase text-white">
         SCRIBE - YOUR AI LEGAL DOCUMENT GENERATOR
       </div>
-      <div className="container m-auto min-h-[80vh] max-w-[70vw] overflow-y-auto bg-white text-white">
+      <div className="bg-[#1A232E]e container m-auto min-h-[80vh] max-w-[70vw] overflow-y-auto text-white">
         <div className="bg-cyan base:clear-none float-left clear-both mx-5 my-4 w-2/6 cursor-pointer break-words rounded-lg border bg-[#1A232E] px-3 py-3 align-middle shadow-inner ">
           <span className='text-slate uppercase" text-xl font-bold'>
             SCRIBE:{' '}
@@ -79,7 +79,7 @@ const pqr = () => {
           </>
         ))}
       </div>
-      <div className="sticky bottom-0 bg-white pb-5">
+      <div className="sticky bottom-0 bg-[#1A232E]  pb-5">
         <div className="px=3 m-auto w-5/6 rounded-xl bg-slate-800 py-4">
           <form onSubmit={handleSubmit} className="margin-auto text-center">
             <input
