@@ -6,7 +6,7 @@ const templateData = [
   {
     title: 'Birth Certificate',
     image:
-      'https://signaturely.com/wp-content/uploads/2022/08/non-disclosure-agreement-uplead.jpg',
+      'https://drive.google.com/file/d/1PAWXFGNiZf7oIr1X64e3cpYdLDO-IDJb/view?usp=sharing',
     content:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     file: 'BirthCertificate',
@@ -69,13 +69,14 @@ const templateData = [
   },
 ]
 
-const templateCard = ({ image, title, content }) => {
+const templateCard = ({ image, title, content, file }) => {
   const router = useRouter()
   const handleSubmit = () => {
     router.push({
       pathname: '/form',
       query: {
         val: JSON.stringify('Hi'),
+        file: file,
       },
     })
   }

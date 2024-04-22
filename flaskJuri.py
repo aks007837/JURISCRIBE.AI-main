@@ -9,7 +9,7 @@ dotenv_path = Path('path/to/.env')
 load_dotenv(dotenv_path=dotenv_path)
 
 openai.organization = "org-CdJKp2apGWpm9rNNCjrDDVKS"
-openai.api_key = "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"
+openai.api_key = "sk-proj-xoI3IBIOpCBX2VVqIJpyT3BlbkFJMiztIfFYhcfVLtCrF9ID"
 # openai.organization = os.getenv('OPENAI_ORG')
 # openai.api_key = os.getenv('OPENAI_API_KEY')
 openai.Model.list()

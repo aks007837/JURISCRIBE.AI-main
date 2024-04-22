@@ -16,7 +16,7 @@ config = pdfkit.configuration(wkhtmltopdf=wkhtmltopdf_path)
 # openai.organization = os.getenv('OPENAI_ORG')
 # openai.api_key = os.getenv('OPENAI_API_KEY')
 openai.organization = "org-CdJKp2apGWpm9rNNCjrDDVKS"
-openai.api_key = "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"
+openai.api_key = "sk-proj-xoI3IBIOpCBX2VVqIJpyT3BlbkFJMiztIfFYhcfVLtCrF9ID"
 openai.Model.list()
 
 app = Flask(__name__)
